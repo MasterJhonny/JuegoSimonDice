@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') rgb(118, 16, 148, 0.9);
     background-position: center center;
     background-repeat: no-repeat;
   }
