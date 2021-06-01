@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+  </head>
+  <body>
+    <div class="gameboard">
+      <div id="celeste" class="color celeste left" data-color="celeste"></div>
+      <div id="violeta" class="color violeta right" data-color="violeta"></div>
+      <div id="naranja" class="color naranja left" data-color="naranja"></div>
+      <div id="verde" class="color verde right" data-color="verde"></div>
+      <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+    </div>
+    <div class="sonidos">
+      <audio src="./audio/fondo.mp3" id="fondo"></audio>
+      <audio src="./audio/ganar.mp3" id="ganar"></audio>
+      <audio src="./audio/sound_do.wav" id="do"></audio>
+      <audio src="./audio/sound_re.wav" id="re"></audio>
+      <audio src="./audio/sound_mi.wav" id="mi"></audio>
+      <audio src="./audio/sound_fa.wav" id="fa"></audio>
+      <audio src="./audio/final.mp3" id="final"></audio>
+    </div>
+    <div class="informacion">
+      <h4>Información</h4>
+      <p>
+        <span><b>Nivel:</b></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="nivel">1</span><br>
+        <span><b>Puntaje:</b></span>&nbsp;&nbsp;&nbsp;<span id="puntaje">0</span><br>
+        <span>Musica de fondo</span>&nbsp;&nbsp;<input type="checkbox" id="checkFondo" checked="true">
+      </p> 
+    </div>
+    <video src="https://static.videezy.com/system/resources/previews/000/039/565/original/Colorful-Hexagon-Neon-Background.mp4" autoplay loop></video>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js">
+    </script>
+  </body>
+</html>
